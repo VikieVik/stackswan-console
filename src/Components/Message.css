@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.item-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: left;
+  height: 80px;
+  background: #ffffff;
+  border-bottom: 1px solid #e1e4e8;
+  position: relative;
+}
+
+#device-list-item-1,
+#device-list-item-2,
+#device-list-item-3,
+#device-list-item-4,
+#device-list-item-5,
+#device-list-item-6,
+#device-list-item-7,
+#device-list-item-8,
+#device-list-item-9 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 27px;
+  color: #636363;
+  padding-top: 12px;
+  padding-left: 20px;
+}
+
+#device-list-item-1 {
+  position: absolute;
+  left: 0%;
+}
+
+#device-list-item-2 {
+  position: absolute;
+  left: 12%;
+}
+
+#device-list-item-3 {
+  position: absolute;
+  left: 24%;
+}
+
+#device-list-item-4 {
+  position: absolute;
+  left: 38%;
+}
+
+#device-list-item-5 {
+  position: absolute;
+  left: 48%;
+}
+
+#device-list-item-6 {
+  position: absolute;
+  left: 56%;
+}
+
+#device-list-item-7 {
+  position: absolute;
+  left: 65%;
+}
+
+#device-list-item-8 {
+  position: absolute;
+  left: 73%;
+}
+
+#device-list-item-9 {
+  position: absolute;
+  left: 80%;
+}

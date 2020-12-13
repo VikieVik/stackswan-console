@@ -1,0 +1,153 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+.Topnav {
+  position: absolute;
+  width: 100%;
+  background: #ffffff;
+  z-index: 10;
+}
+
+.navbar {
+  display: flex;
+  height: 65px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid 1px #dfdede;
+}
+
+.controls {
+  margin-left: auto;
+  display: flex;
+  margin: 0px 10px 0px 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#send-form {
+  margin-left: 5vh;
+}
+
+#read {
+  background: #5725ff;
+  color: #ffffff;
+  border-radius: 5px;
+  width: 88px;
+  height: 35px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 1px 1px 1px 1px;
+  cursor: pointer;
+  border: 2px solid #5725ff;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  margin: 2px 2px 2px 2px;
+}
+
+#read:hover {
+  background: #553ce7;
+  border: 2px solid #553ce7;
+  color: #ffffff;
+}
+
+#start {
+  background: #ffffff;
+  color: #5725ff;
+  border-radius: 5px;
+  width: 88px;
+  height: 35px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 1px 1px 1px 1px;
+  cursor: pointer;
+  border: 2px solid #5725ff;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  margin: 2px 2px 2px 2px;
+}
+
+#start:hover {
+  border: 2px solid #553ce7;
+  background: #f0f0f0;
+  color: #553ce7;
+}
+
+#stop {
+  background: #ffffff;
+  color: #5725ff;
+  border-radius: 5px;
+  width: 88px;
+  height: 35px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 1px 1px 1px 1px;
+  cursor: pointer;
+  border: 2px solid #5725ff;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  margin: 2px 2px 2px 2px;
+}
+
+#stop:hover {
+  background: #f0f0f0;
+  color: #553ce7;
+}
+
+#input {
+  width: 214px;
+  height: 35px;
+  text-align: justify;
+  padding: 10px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+  color: #5725ff;
+  background: #ffffff;
+  border: 1px solid #5725ff;
+  border-radius: 5px;
+  outline: none;
+  box-sizing: border-box;
+  margin: 2px 2px 2px 2px;
+}
+
+#input:focus {
+  border: 1px solid #5725ff;
+  box-shadow: 0px 0px 4px #5725ff;
+}
+
+/* Inforcing Safari to apply input CSS properties
+  (not required for other browsers)*/
+#input[type="search"] {
+  -webkit-appearance: textfield;
+}
+#submit {
+  background: #ffffff;
+  color: #5725ff;
+  border-radius: 5px;
+  width: 88px;
+  height: 35px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 1px 1px 1px 1px;
+  cursor: pointer;
+  border: 2px solid #5725ff;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  margin: 2px 2px 2px 2px;
+}
+
+#submit:hover {
+  background: #f0f0f0;
+  color: #5725ff;
+}
