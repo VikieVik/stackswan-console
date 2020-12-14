@@ -34,7 +34,7 @@ export default function Topnav() {
   return (
     <div className="Topnav">
       <div className="navbar">
-        <img id="bluebird-logo" src={stackswanLogo} />
+        <img id="stackswan-logo" src={stackswanLogo} />
         <div className="controls">
           <button id="read" onClick={connectToBleDevice}>
             Connect

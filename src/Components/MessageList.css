@@ -84,7 +84,6 @@
 }
 
 .label-row-1-item-3:hover {
-  border: 2px solid #553ce7;
   background: #f0f0f0;
   color: #553ce7;
 }
@@ -167,4 +166,41 @@
   align-items: center;
   overflow-y: scroll !important;
   overflow: hidden;
+}
+
+@media screen and (max-width: 900px) {
+  .MessageList {
+    margin-top: 10%;
+  }
+  .label-section {
+    height: 80px;
+  }
+  .label-row-1 {
+    height: 40px;
+  }
+  .label-row-2 {
+    height: 40px;
+  }
+
+  .label-row-1-item-1,
+  .label-row-1-item-2 {
+    padding-top: 8px;
+    font-size: 16px;
+  }
+  .label-row-1-item-3 {
+    padding-top: 10px;
+    width: 60px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    border-width: 0.5px;
+    margin-top: 5px;
+    padding-top: 0px;
+  }
+  #label-row-2-item-1,
+  #label-row-2-item-9 {
+    padding-top: 8px;
+    font-size: 14px;
+  }
 }

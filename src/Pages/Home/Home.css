@@ -17,6 +17,8 @@
   justify-content: center;
   align-items: center;
   background-color: #eff3f6;
+  overflow-y: scroll !important;
+  overflow: hidden;
 }
 
 .copyright-info {

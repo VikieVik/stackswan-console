@@ -8,10 +8,12 @@
   display: flex;
   justify-content: flex-start;
   align-items: left;
-  height: 80px;
+  height: 50px;
   background: #ffffff;
   border-bottom: 1px solid #e1e4e8;
   position: relative;
+  overflow-x: scroll !important;
+  overflow: hidden;
 }
 
 #device-list-item-1,
@@ -76,4 +78,26 @@
 #device-list-item-9 {
   position: absolute;
   left: 80%;
+}
+
+@media screen and (max-width: 900px) {
+  .item-container {
+    height: 40px;
+  }
+  #device-list-item-1 {
+    position: absolute;
+    padding-top: 8px;
+    padding-left: 10px;
+    left: 0%;
+    font-size: 12px;
+    margin-right: 0px;
+  }
+  #device-list-item-9 {
+    position: relative;
+    left: 90%;
+    padding-top: 8px;
+    padding-left: 10px;
+    margin-left: 0px;
+    font-size: 12px;
+  }
 }

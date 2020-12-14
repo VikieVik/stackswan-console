@@ -10,15 +10,16 @@
   width: 100%;
   background: #ffffff;
   z-index: 10;
+  border-bottom: solid 1px #dfdede;
 }
 
 .navbar {
   display: flex;
   height: 65px;
+  width: 100%;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border-bottom: solid 1px #dfdede;
 }
 
 .controls {
@@ -30,7 +31,7 @@
 }
 
 #send-form {
-  margin-left: 5vh;
+  margin-left: 1vh;
 }
 
 #read {
@@ -74,7 +75,6 @@
 }
 
 #start:hover {
-  border: 2px solid #553ce7;
   background: #f0f0f0;
   color: #553ce7;
 }
@@ -150,4 +150,65 @@
 #submit:hover {
   background: #f0f0f0;
   color: #5725ff;
+}
+
+@media screen and (max-width: 900px) {
+  .navbar {
+    height: 90px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  #stackswan-logo {
+    height: 4.5vh;
+    margin-bottom: 8px;
+    margin-top: 5px;
+  }
+
+  .controls {
+    margin: 0px 0px 0px 0px;
+  }
+
+  #read {
+    width: 60px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  #start {
+    width: 60px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    border-width: 0.5px;
+  }
+
+  #stop {
+    width: 60px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    border-width: 0.5px;
+  }
+
+  #input {
+    width: 120px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+  #submit {
+    width: 60px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    border-width: 0.5px;
+  }
 }
