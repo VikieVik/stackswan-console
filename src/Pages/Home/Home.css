@@ -21,6 +21,12 @@
   overflow: hidden;
 }
 
+.first-chart {
+  position: absolute;
+  top: 120%;
+  z-index: 2;
+}
+
 .copyright-info {
   font-size: 14px;
   padding-bottom: 10px;

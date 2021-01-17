@@ -12,7 +12,6 @@ export default function ({ data }) {
     <div className="DeviceListItem">
       <div className="item-container">
         <div id="device-list-item-1">{data.title}</div>
-        <div id="device-list-item-9">{timeStamp}</div>
 
         {/**
         *   <div id="device-list-item-2">{data.civilian.info.phone}</div>
@@ -22,7 +21,7 @@ export default function ({ data }) {
         <div id="device-list-item-6">{data.civilian.needs.firstaid}</div>
         <div id="device-list-item-7">{data.civilian.needs.water}</div>
         <div id="device-list-item-8">{data.civilian.needs.food}</div>
-        <div id="device-list-item-9">{data.civilian.message}</div>
+        <div id="device-list-item-9">{timeStamp}</div>
         */}
       </div>
     </div>
